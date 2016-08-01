@@ -1,0 +1,93 @@
+.navbar-brand{
+margin-bottom:10px;
+}
+
+body {
+    background-color:darkgray;
+
+}
+
+
+.inhalt{
+    font-size:medium;
+    margin-top: 10px;
+    padding: 50px;
+    padding-bottom: 200px;
+    margin: 50px;
+    margin-bottom:0px;
+    background-color: white;
+    text-align:center;
+}
+
+small{
+    padding-bottom: 10px;
+}
+
+h1{
+text-align:center;
+border: black 2px solid;
+}
+
+h3{
+text-decoration:underline;
+}
+
+img{
+    max-height: 25px;
+   
+}
+
+.willkommen img{
+	max-height:100%;
+	max-width:100%;
+	padding:50px;	
+}
+
+nav ul ul {
+  margin: 0; 
+  padding: 0;
+  position: absolute;
+  top: 2.2em; 
+  font: 0/0 serif;/* Unternavigation ausblenden */
+  z-index: -1;
+}
+
+nav ul li:hover ul {
+  font: inherit;
+  z-index: auto;   /*  Unternavigation einblenden */
+  margin-left:10px;
+border:solid 2px black;
+border-padding:2px;
+background:lightgray;
+}
+
+.ich{
+text-align:center;
+max-height:1000px;
+max-width:1000px;
+border-radius:1000px;
+margin:auto;
+margin-bottom:20px;
+}
+
+#fusszeile {
+  clear: both;
+  color:white;
+  background-color:black;
+  padding:25px;
+}	
+
+.kontakt{
+margin:auto;
+}
+
+.bilder {
+    max-height: 200px;
+    max-width: 200px;
+    margin:auto;
+    border-radius:500px;
+}
+
+.lead{
+    text-decoration: underline
+}
